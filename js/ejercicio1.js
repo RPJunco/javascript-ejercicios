@@ -8,7 +8,7 @@ let numerosLista = [];
 function elevarNumeros(numList) {
     let numerosAlCuadrado = [];
 
-    for (numeros of numList){
+    for (let numeros of numList){
         numerosAlCuadrado.push(Math.pow(numeros, 2));
     }
 
